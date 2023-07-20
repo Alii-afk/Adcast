@@ -1,0 +1,1231 @@
+/* Common For All Pages */
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+p
+{
+  margin: 0px;
+}
+/* .noHover:focus, :hover{
+    text-decoration: none;
+    color: white;
+} */
+
+.noHover:hover {
+    color: white;
+  }
+::placeholder {
+    color: #051017;
+    opacity: 1; 
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.headLabel {
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 5%;
+}
+.headLabel2 {
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 5%;
+}
+.formInput {
+    display: inline-block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #051017;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    width: 257px;
+    height: 46px;
+}
+.formInput2
+{
+    width: auto !important;
+}
+.formButton {
+    display: inline-block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px 97px;
+    background: #051017;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    border: none;
+    width: 257px;
+    height: 46px;
+}
+
+.smallFormButton {
+    display: inline-block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.0506px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 9.03798px 15.0633px;
+    background: #051017;
+    border-radius: 7.53165px;
+    margin-bottom: 5%;
+    border: none;
+    width: 115.13px;
+    height: 34.08px;
+}
+
+.smallDashboardButton {
+    display: inline-block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.0506px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 9.03798px 15.0633px;
+    background: #051017;
+    border-radius: 7.53165px;
+    margin-bottom: 5%;
+    border: none;
+    width: 156.13px;
+    height: 34.08px;
+}
+
+.cLink
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.dLink
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #051017;
+    text-decoration: none;
+}
+.navbar-toggler {
+    color: #117BC8;;
+    border: none;    
+}
+nav {
+    padding-left: 3%;
+    padding-top: 1%;
+}
+a:hover {
+    text-decoration: none;
+    color: #051017;
+}
+a:focus {
+    text-decoration: none;
+    color: #051017;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #117BC8;
+    background-color: #117BC8;
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+ 
+
+
+
+/* Second header Css */
+
+.headerProfileLink {   
+    margin-right: 10px;
+}
+.headerLogoutLink {   
+    margin-right: 50px;
+}
+.profileImageHeader {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background-color: #117BC8;
+}
+
+/* Login Page Css */
+.loginContainer {
+    margin-top: 15%;
+}
+.loginformContainer {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.loginButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.registerLink {
+    display: block;
+    font-family: 'Switzer';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Registeration Page Css */
+
+.registerContainer {
+    margin-top: 7%;
+}
+.registerFormContainer {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.privacyCheckbox {
+    height: 10px;
+    width: 13px;
+    background-color: transparent;
+    border: 2px solid white;
+    display: initial;
+}
+.checkboxtext {
+    display: initial;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registerButton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+}
+.registerLink {
+    display: block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+}
+.privacy{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+/* Add Profile Page Css */
+.addProfileContainer {
+    margin-top: 7%;
+}
+.profileFormContainer {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.saveButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+}
+
+/* Add Device Page Css */
+.addDeviceContainer {
+    margin-top: 7%;
+}
+.addDeviceFormContainer {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.deviceBox {
+    position: relative;
+    border: none;
+    width: 257px;
+    height: 140px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+@font-face {
+    font-family: 'Switzer';
+    src: url(Switzer-Variable.ttf);
+  }
+.deviceText {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.horizontalButton{
+    position: absolute;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    width: 107px;
+    height: 52px;
+    left: 22px;
+    top: 62px;
+    background: #B5B5B5;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #051017;
+    text-align: center;
+}
+.verticalButton{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 76px;
+    position: absolute;
+    height: 75px;
+    width: 56px;
+    left: 180px;
+    top: 41px;
+    color: #051017;
+    background: #B5B5B5;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.saveAndFinishButton {
+    display: inline-block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px 58px;
+    background: #051017;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    border: none;
+    width: 257px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+/* Dashboard Page Css */
+.myDevice{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #051017;
+}
+
+.dtext {
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #051017;
+}
+.adddevicebtn{
+    background: #051017;
+    border-radius: 7.53165px;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF !important;
+    display: inline-block;
+}
+.dsubtext{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    
+}
+.device{
+    color: #051017;
+    text-decoration: none;
+}
+.deviceSettingbtn{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #051017;
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+}
+.cancelbtn
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.0506px;
+    line-height: 16px;
+    text-align: center;
+    color: #051017;
+    border: 2px solid #051017;
+    border-radius: 7.53165px;
+    background-color: transparent;
+    padding: 9.03798px 15.0633px;
+}
+.savebtn
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.0506px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #051017;
+    border-radius: 7.53165px;
+    padding: 9.03798px 15.0633px;
+gap: 7.53px;
+    border: 1px solid #051017;
+
+}
+.deleteVideobtn
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    border: none;
+    background-color: transparent;
+    color: #117BC8;
+}
+
+.timeDiv
+{
+    padding: 0px;
+}
+.dateDiv
+{
+    padding: 0px;
+}
+.accountText
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #051017;
+}
+.progDiv
+{
+    width: 300px; 
+    height: 10px;
+}
+.progress {
+    display: flex;
+    height: 0.5rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #051017;
+    transition: width .6s ease;
+    border-radius: 0.25rem;
+}
+
+/* Device View Page Css */
+
+.backButton {
+    text-decoration: none;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.5858px;
+    line-height: 28px;
+    text-align: center;
+    color: #051017;
+}
+.backButton:hover
+{
+    text-decoration: none;
+    color: #051017;
+}
+.backButton:focus
+{
+    text-decoration: none;
+    color: #051017;
+}
+.settingHeading
+{
+    margin-bottom: 31px;
+}
+
+/* Device Settings Page Css */
+
+.settingButtons{
+    display: block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #117BC8;
+    margin-bottom: 10px;
+    border: none; 
+    background: transparent;
+    outline: none;
+}
+.settingButtons:hover, :focus{
+    border: none; 
+    outline: none !important;
+}
+.sd-container {
+    position: relative;
+    float: left;
+  }
+  
+  .sd {
+    padding: 5px 10px;
+    height: 30px;
+    width: 150px;
+  }
+  
+  .open-button {
+    position: absolute;
+    top: 10px;
+    right: 11px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    pointer-events: none;
+  }
+  
+  .open-button svg {
+    border: none;
+    background: transparent;
+  }
+
+/* Profile Settings Page Css */
+
+.profileImage {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: #117BC8;
+}
+
+/* Upload Ad Page Css */
+
+.days
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #B5B5B5;
+}
+.uploadButton{
+    padding: 10px 60px !important;
+}
+.dashboardButton{
+    padding: 10px 10px !important;
+}
+.dashboardButton :focus :hover
+{
+    color: #FFFFFF;
+    background: #051017;
+}
+
+.adname
+{
+    border: none;
+    border-bottom: 1px solid #000000;
+
+}
+.chooselabel{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #051017;
+    margin-bottom: 5px;
+}
+.uploadfile{
+    height: 350px;
+    display: block;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 0px;
+  }
+.btnCopyText11
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12.0506px;
+    line-height: 16px;
+    width: 91.13px;
+    height: 34.08px;
+    background: #051017;
+    border: 2px solid #051017;
+    border-radius: 7.53165px;
+}
+.closeModalButton
+{
+    color: white !important;
+    text-shadow: 0 0 0 #fff !important;
+    opacity: 1 !important;
+}
+.pkgDiv
+{
+    margin-top: 128px;
+}
+.addPackagebtn
+{
+    background: #051017;
+    border-radius: 7.53165px;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0506px;
+    line-height: 16px;
+    color: #FFFFFF !important;
+    display: inline-block;
+    width: 119.13px;
+    margin-top: 15px;
+    margin-bottom: 86.92px;
+}
+
+.deviceSettingModalBtn
+{
+    background: #051017;
+    border-radius: 7.53165px;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.0506px;
+    line-height: 18px;
+    color: #FFFFFF !important;
+    display: inline-block;
+    width: 119.13px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0.575rem 0.75rem;
+    margin-top: 10px;
+    border: none;
+
+}
+.pkgHeading
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.pkgtext
+{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.pkgtext2
+{
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+
+.modalcont
+{
+    background-color: #117BC8 !important;
+    border-radius: 20px !important;
+    width: 575px !important;
+    height: 229px !important;
+}
+.closebtn
+{
+    padding-top: 7px; 
+    padding-right: 15px; 
+    padding-bottom: 7px; 
+    padding-left: 15px; 
+    background-color:transparent;     
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1; border: none;
+}
+#urlLink
+{
+    width: 290px;
+    display:inline-block; 
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #051017;
+}
+  #dragText
+  {
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #051017;
+    margin: 0px;
+    padding-bottom: 5px;
+  }
+  #dropText
+  {
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #051017;
+    margin: 0px;
+    padding-bottom: 5px;
+  }
+  #supportText
+  {
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #051017;
+  }
+  #percentageText
+  {
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #051017;
+  }
+
+  input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+  progress::-webkit-progress-bar {
+   background: #117BC8;
+  }
+  .DateLabel
+  {
+    display: inline-block;
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #051017;
+  }
+  .linktext
+  {
+    font-family: 'Switzer';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #051017;
+  }
+  .appLinkButton
+  {
+    font-family: 'Switzer';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.0506px;
+    line-height: 16px;
+    text-align: center;
+    color: #051017;
+    border: 2px solid #051017;
+    border-radius: 7.53165px;
+    text-decoration: none;
+    padding: 9.03798px 15.0633px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ 
+
+  /* .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content:'';
+    background-color: transparent;
+    border: 0.903599px solid #051017;
+    border-radius: 2.0331px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 7.07px;
+    height: 14.33px;
+  border: 0.903599px solid #051017;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  } */
+
+  .checkdata{
+    font-family: 'Switzer', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #051017;
+  }
+
+  .KLink
+    {
+        font-family: 'Switzer';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+
+    .packageModelClass
+    {
+        background: #117BC8 !important;
+        border-radius: 20px !important;
+        border: none !important;
+        width: 575px;
+    }
+    .settingsModelClass
+    {
+        background: #117BC8 !important;
+        border-radius: 20px !important;
+        border: none !important;
+    }
+
+    #drop-area
+    {
+        vertical-align:center;
+        text-align: center;
+        border: 0.526154px dashed #051017;
+        border-radius: 5.26154px;
+        width: 663.46px;
+        height: 342px;
+    }
+    .dropAreaInner
+    {
+        width:100%;
+        margin-top: 125px;
+    }
+
+/* For Mobile Devices */
+  @media (max-width: 768px) {
+
+
+    .largeScreen
+    {
+        display: none;
+    }
+    .settingHeading
+    {
+        margin-bottom: 10px;
+    }
+    li {
+        margin: 0px !important;
+    }
+    .profileTag
+    {
+        display: none;
+    }
+    .nav-link {
+        padding: 0px;
+        padding-top: 10px;
+   }
+   .deviceDiv
+   {
+    display: none;
+   }
+   .deviceDiv2
+   {
+    display: block;
+   }
+   .connect
+    {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .connect2{
+        text-align: right !important;
+    }
+
+    .connect3t
+    {
+        text-align: left !important;
+    }
+    /* .accountText
+    {
+        line-height: 21px;
+    } */
+    .progDiv
+    {
+        width: 260px; 
+        height: 10px;
+    }
+    .adddevicedisplay
+    {
+        display: none;
+    }
+    .adddevicebtn1
+    {
+        display: block;
+    }
+    .headerLogoutLink {   
+        margin: 0px;
+    }
+    .divTag
+    {
+        margin: 0px !important;
+    }
+    .cont
+    {
+        text-align: right;
+    }
+    .packageModelClass
+    {
+        
+        width: 350px;
+        margin: auto;
+    }
+    
+    
+}
+
+@media (max-width: 990px) {
+    .storagetext
+{
+    margin-top: 0px !important;
+}
+    .closebar
+    {
+        display: none !important;
+    }
+    .large
+    {
+        display: none !important; 
+    }
+    .onSmall
+    {
+        width: 68%;
+         margin:auto;
+    }
+
+
+#formDiv
+    {
+        margin: 0px !important;
+        padding-top: 20px !important;
+        padding-left: 23px !important;
+    }
+
+    #drop-area
+    {
+        
+        width:339px !important; 
+        height: 229px !important; 
+        border-radius: 5.261538982391357px !important; 
+        margin: auto;
+
+    }
+    .dropAreaInner
+    {
+        width:100% !important;
+        margin-top: 68px !important;
+    }
+    #dragText
+    {
+        display: none !important;
+    }
+   
+    .myDevice
+    {
+        font-weight: 600 !important;
+        font-size: 22px !important;
+        line-height: 29px !important;
+
+    }
+    .appLinkButton
+  {
+    padding: 10.03798px 5.0633px;
+  }
+    
+}
+
+
+
+@media (min-width: 991px) {
+    .changeDiv
+{
+    width: 575px;
+}
+    .openbar
+    {
+        display: none !important;
+    }
+    .small
+    {
+        display: none !important; 
+    }
+    #dropText
+    {
+        display: none;
+    }
+    #fileElem
+    {
+        display: none;
+    }
+}
+
+
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 3px;
+    right: 7px;
+    }
+  }
+
+/* For Mobile Devices */
+@media (min-width: 769px) {
+    li {
+        margin-right: 1rem!important;
+    }
+    .deviceDiv2
+    {
+     display: none;
+    }
+    .navbar-brand {
+        margin-left: 40px;
+    }
+    .adddevicedisplay2
+    {
+        display: none;
+    }
+    .smallScreen
+    {
+        display: none;
+    }
+   
+    
+}
+
+
+#toast {
+    visibility: hidden;
+    max-width: 50px;
+    height: 50px;
+    /*margin-left: -125px;*/
+    margin: auto;
+    background-color: #36BB91;
+
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    position: fixed;
+    z-index: 1;
+    left: 0;right:0;
+    bottom: 30px;
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+#toast #desc{
+    color: #fff;
+    padding: 13px;
+    overflow: hidden;
+	  white-space: nowrap;
+}
+
+#toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s, fadeout 0.5s 4.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes expand {
+    from {min-width: 50px} 
+    to {min-width: 350px}
+}
+
+@keyframes expand {
+    from {min-width: 50px}
+    to {min-width: 350px}
+}
+@-webkit-keyframes stay {
+    from {min-width: 350px} 
+    to {min-width: 350px}
+}
+
+@keyframes stay {
+    from {min-width: 350px}
+    to {min-width: 350px}
+}
+@-webkit-keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 60px; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 60px; opacity: 0;}
+}
+
+
+  
